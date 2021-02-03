@@ -6,11 +6,12 @@ A webapp currently in development that aims to scrape reddit for popular images 
 ## Features
 User authentication backend and basic frontend has been completed as well as some API endpoints. Current frontend is still in development and set to be improved.
 
-## Tech Stack
+## Tech
 - Django
 - Django-rest-framework
 - React Redux
 - Postgres
+- Djoser
 
 ## Todo
 - Include reddit scraper that periodically updates database. 
