@@ -4,7 +4,7 @@
 A webapp currently in development that aims to scrape reddit for popular images and display them in a UI friendly web gallery.  Users will be able to favorite images and store them in different collections specified by the user.  
 
 ## Features
-User authentication backend has been completed as well as some API endpoints. Current frontend is still in development and set to be improved.
+User authentication backend and basic frontend has been completed as well as some API endpoints. Current frontend is still in development and set to be improved.
 
 ## Tech Stack
 - Django
@@ -40,7 +40,7 @@ DATABASES = {
     }
 }
 ```
-Below is the email configuration of the account that sends reset-password and verification emails.
+Below is the email configuration of the account that sends reset-password and verification emails. Located in `settings.py`.
 ```python
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
