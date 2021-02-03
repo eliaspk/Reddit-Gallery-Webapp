@@ -4,7 +4,7 @@
 A webapp currently in development that aims to scrape reddit for popular images and display them in a UI friendly web gallery.  Users will be able to favorite images and store them in different collections specified by the user.  
 
 ## Features
-User authentication backend and basic frontend has been completed as well as some API endpoints. Current frontend is still in development and set to be improved.
+User authentication backend and basic frontend has been completed as well as some API endpoints. Current frontend is set to be improved.
 
 ## Tech
 - Django
@@ -14,10 +14,10 @@ User authentication backend and basic frontend has been completed as well as som
 - Djoser
 
 ## Todo
-- Include reddit scraper that periodically updates database. 
+- Reddit scraper that periodically updates database. 
 - Improve current frontend
 - Develop gallery and user profile frontend
-- Add additional backend image filtering
+- Add additional backend functionality (filtering)
 
 ## Usage
 Backend contains requirements.txt for installation of necessary python dependencies.
